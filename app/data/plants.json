@@ -1,0 +1,172 @@
+{
+"plants": [
+{
+"id": "1",
+"name": "Monstera Deliciosa",
+"species": "Monstera deliciosa",
+"location": "Living Room",
+"imageUrl": "/placeholder.svg?height=200&width=200",
+"acquiredDate": "2023-03-15",
+"lastWatered": "2025-11-09",
+"lastFertilized": "2025-10-25",
+"soilType": "Well-draining potting mix",
+"potSize": "12 inch",
+"healthStatus": "Healthy",
+"notes": "Loves indirect bright light. New leaf unfurling!"
+},
+{
+"id": "2",
+"name": "Snake Plant",
+"species": "Dracaena trifasciata",
+"location": "Bedroom",
+"imageUrl": "/placeholder.svg?height=200&width=200",
+"acquiredDate": "2024-01-20",
+"lastWatered": "2025-11-05",
+"lastFertilized": "2025-09-15",
+"soilType": "Cactus mix",
+"potSize": "8 inch",
+"healthStatus": "Healthy",
+"notes": "Very low maintenance. Can tolerate low light."
+},
+{
+"id": "3",
+"name": "Fiddle Leaf Fig",
+"species": "Ficus lyrata",
+"location": "Office",
+"imageUrl": "/placeholder.svg?height=200&width=200",
+"acquiredDate": "2023-08-10",
+"lastWatered": "2025-11-10",
+"lastFertilized": "2025-11-01",
+"soilType": "Rich potting soil",
+"potSize": "14 inch",
+"healthStatus": "Needs attention",
+"notes": "Some brown spots on lower leaves. Monitor for overwatering."
+},
+{
+"id": "4",
+"name": "Pothos",
+"species": "Epipremnum aureum",
+"location": "Kitchen",
+"imageUrl": "/placeholder.svg?height=200&width=200",
+"acquiredDate": "2024-05-03",
+"lastWatered": "2025-11-08",
+"lastFertilized": "2025-10-20",
+"soilType": "All-purpose potting mix",
+"potSize": "10 inch hanging",
+"healthStatus": "Healthy",
+"notes": "Propagated from a cutting. Growing beautifully!"
+},
+{
+"id": "5",
+"name": "Peace Lily",
+"species": "Spathiphyllum",
+"location": "Bathroom",
+"imageUrl": "/placeholder.svg?height=200&width=200",
+"acquiredDate": "2023-11-28",
+"lastWatered": "2025-11-11",
+"lastFertilized": "2025-10-28",
+"soilType": "Peat-based mix",
+"potSize": "10 inch",
+"healthStatus": "Healthy",
+"notes": "Thrives in humidity. Currently blooming!"
+}
+],
+"tasks": [
+{
+"id": "t1",
+"plantId": "1",
+"type": "Water",
+"dueDate": "2025-11-16",
+"frequency": "Every 7 days",
+"completed": false
+},
+{
+"id": "t2",
+"plantId": "1",
+"type": "Fertilize",
+"dueDate": "2025-11-25",
+"frequency": "Every 30 days",
+"completed": false
+},
+{
+"id": "t3",
+"plantId": "2",
+"type": "Water",
+"dueDate": "2025-11-19",
+"frequency": "Every 14 days",
+"completed": false
+},
+{
+"id": "t4",
+"plantId": "2",
+"type": "Dust leaves",
+"dueDate": "2025-11-13",
+"frequency": "Every 30 days",
+"completed": false
+},
+{
+"id": "t5",
+"plantId": "3",
+"type": "Water",
+"dueDate": "2025-11-17",
+"frequency": "Every 7 days",
+"completed": false
+},
+{
+"id": "t6",
+"plantId": "3",
+"type": "Check for pests",
+"dueDate": "2025-11-14",
+"frequency": "Every 7 days",
+"completed": false
+},
+{
+"id": "t7",
+"plantId": "3",
+"type": "Fertilize",
+"dueDate": "2025-12-01",
+"frequency": "Every 30 days",
+"completed": false
+},
+{
+"id": "t8",
+"plantId": "4",
+"type": "Water",
+"dueDate": "2025-11-15",
+"frequency": "Every 7 days",
+"completed": false
+},
+{
+"id": "t9",
+"plantId": "4",
+"type": "Prune",
+"dueDate": "2025-11-20",
+"frequency": "As needed",
+"completed": false
+},
+{
+"id": "t10",
+"plantId": "5",
+"type": "Water",
+"dueDate": "2025-11-14",
+"frequency": "Every 3 days",
+"completed": false
+},
+{
+"id": "t11",
+"plantId": "5",
+"type": "Mist leaves",
+"dueDate": "2025-11-12",
+"frequency": "Every 2 days",
+"completed": false
+},
+{
+"id": "t12",
+"plantId": "5",
+"type": "Fertilize",
+"dueDate": "2025-11-28",
+"frequency": "Every 30 days",
+"completed": false
+}
+]
+}

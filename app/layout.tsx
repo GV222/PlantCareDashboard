@@ -25,7 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // Suppress hydration warnings caused by client-side browser extensions
+        // (for example Grammarly) that inject attributes into the DOM after
+        // the server render. See React's `suppressHydrationWarning`.
+        suppressHydrationWarning={true}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#F8FAF3]`}
       >
         {children}
       </body>
