@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Plant, Task } from "../../types/plant";
-import TasksTable from "./tasks-table";
+import TasksTable from "./tasksTable";
 
 export default function PlantCard({ plant, tasks }: { plant: Plant; tasks: Task[] }) {
   return (

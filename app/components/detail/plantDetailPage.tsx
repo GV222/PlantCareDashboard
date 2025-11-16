@@ -1,7 +1,7 @@
 import { Plant, Task } from "../../types/plant";
-import TasksTable from "../home/tasks-table";
+import TasksTable from "../home/tasksTable";
 import Box from "./box";
-import HeaderDetail from "./header-detail";
+import HeaderDetail from "./headerDetail";
 import plants from "../../data/plants.json";
 import PlantInformation from "./plantInformation";
 

@@ -1,6 +1,6 @@
 import { Plant } from "./types/plant";
 import plants from "./data/plants.json";
-import Header from "./components/home/header-home";
+import Header from "./components/home/headerHome";
 import PlantsList from "./components/home/plnatsList";
 
 export default function Home() {
